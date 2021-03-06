@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="JDL generator example" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="eagleeye1984.java.jdldefinition.generator.Start" />
+    <module name="JDLFromJavaGenerator" />
+    <option name="PROGRAM_PARAMETERS" value="d:\develope\github\SimpleExampleApp\src\ doc\simpleApp.jdl" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,55 @@
+entity Department {
+  depId Long,
+  depName String
+}
+
+entity Allocations {
+
+}
+
+entity DepProject {
+  projectId Integer,
+  projectName String,
+  projectDescription String,
+  projectType ProjectType
+}
+
+enum InnerEnum {
+  ONE, TWO, THREE
+}
+
+entity SomeInnerClass {
+  someOtherString String,
+  innerEnum InnerEnum,
+  outterEnum OutterEnum
+}
+
+enum ProjectType {
+  AUTOMOTIVE, MACHINELEARNING
+}
+
+enum OutterEnum {
+  D1, D2, D3, D4
+}
+
+entity Person {
+  personId Integer,
+  name String,
+  age Long,
+  salaryLevel Int
+}
+
+entity Main {
+
+}
+
+relationship OneToOne {
+  DepProject{department} to Department,
+  Person{department} to Department
+}
+
+relationship OneToMany {
+  DepProject to Allocations{projectDevelopers},
+  Person to Allocations{projectDevelopers}
+}
+
