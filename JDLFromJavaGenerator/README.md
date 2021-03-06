@@ -105,7 +105,7 @@ UML diagram from example:
 
 
 ## Conlusion
-Thios is just first version of the tool which was developed just for the need of UML diagram for my analysis so it is possible that there are some flaws, not supported structures or use-cases.
+This is just first version of the tool which was developed just for the need of UML diagram for my analysis so it is possible that there are some flaws, not supported structures or use-cases.
 Feel free to use this base and amend it for your needs, or extend current tool and make it better and better.
 Or you can contact me with your case and I can amend the tool with your use-case or repair any issue in the tool.
 
